@@ -143,7 +143,7 @@ public class AccommodationReportView {
             .filter(Citizen::isElderly)
             .count();
 
-        System.out.println("\n⚠ URGENT ATTENTION NEEDED:");
+        System.out.println("\nURGENT ATTENTION NEEDED:");
         System.out.println("Priority Citizens Still Stranded: " + priorityStranded);
         System.out.println("  - Children (< 18 years): " + children);
         System.out.println("  - Elderly (>= 65 years): " + elderly);
